@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<div id="mainWrapper" class="mainWrapper register">
+		<h1 class="mainHeader">CSV変換するやつ</h1>
+		<h2>入力</h2>
+		<div class="colorSelect">
+			<h3>データに反映するチェック色を選択</h3>
+			
+			<span style="background-color: #ff944a"><input type="checkbox" id="color-1" name="color-1" value="1"><label for="color-1">1</label></span>
+			<span style="background-color: #f0f"><input type="checkbox" id="color-2" name="color-2" value="2"><label for="color-2">2</label></span>
+			<span style="background-color: #fff700"><input type="checkbox" id="color-3" name="color-3" value="3"><label for="color-3">3</label></span>
+			<span style="background-color: #00b54a"><input type="checkbox" id="color-4" name="color-4" value="4"><label for="color-4">4</label></span>
+			<span style="background-color: #00b5ff"><input type="checkbox" id="color-5" name="color-5" value="5"><label for="color-5">5</label></span>
+			<span style="background-color: #9c529c"><input type="checkbox" id="color-6" name="color-6" value="6"><label for="color-6">6</label></span>
+			<span style="background-color: #00f"><input type="checkbox" id="color-7" name="color-7" value="7"><label for="color-7">7</label></span>
+			<span style="background-color: #0f0"><input type="checkbox" id="color-8" name="color-8" value="8"><label for="color-8">8</label></span>
+			<span style="background-color: #f00"><input type="checkbox" id="color-9" name="color-9" value="9"><label for="color-9">9</label></span>
+		</div>
+		<input type="text" id="orderName" placeholder="発注者名">
+		<br>
+		<textarea name="" id="inputFile" cols="30" rows="10"></textarea>
+		<input type="button" id="btnExecute" value="変換する">
+		<h2>変換結果</h2>
+		<textarea name="" id="orderFile" cols="30" rows="10"></textarea><br>
+		<a href="" id="downloadLink" style="display:none;">ダウンロードする</a>
+	</div>
+</body>
+<script src="./script.js"></script>
+</html>
